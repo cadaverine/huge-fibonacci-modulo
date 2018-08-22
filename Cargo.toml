@@ -1,0 +1,6 @@
+[package]
+name = "huge_fibonacci_modulo"
+version = "0.1.0"
+authors = ["cadaverine <kennville@gmail.com>"]
+
+[dependencies]
