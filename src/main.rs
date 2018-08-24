@@ -18,7 +18,19 @@
 // 4) после нахождения цикла Пизано - находим остаток от деления n на длину temp-массива
 // 5) остаток от деления - индекс целевого числа в temp-массиве, достаем соответсвующее значение по индексу
 
+fn huge_fib(n: u64, m: u64) -> u64 {
+    let capacity = 10000;
+
+    let mut remains: Vec<u64> = Vec::with_capacity(capacity);
+    let mut pizanoRemains: Vec<u64> = Vec::with_capacity(capacity);
+
+    n + m
+}
+
 
 fn main() {
-    println!("Hello, world!");
+
+    let a = huge_fib(20, 30);
+
+    println!("{}", a);
 }
